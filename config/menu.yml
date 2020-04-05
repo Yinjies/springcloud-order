@@ -15,5 +15,5 @@ eureka:
   instance:
     prefer-ip-address: true
 mybatis:
-  mapper-locations: /mapper/*.xml
+  mapper-locations: mapper/*.xml
   type-aliases-package: com.kirb.entity
