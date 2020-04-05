@@ -4,7 +4,7 @@ spring:
   application:
     name: menu
   datasource:
-    name: orderingsystem
+    name: springcloud-order
     url: jdbc:mysql://localhost:3306/orderingsystem?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
@@ -15,5 +15,5 @@ eureka:
   instance:
     prefer-ip-address: true
 mybatis:
-  mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.southwind.entity
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.kirb.entity
