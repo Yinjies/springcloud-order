@@ -2,7 +2,7 @@ server:
   port: 8020
 spring:
   application:
-    name: protect-user
+    name: protect-menu
   datasource:
     name: orderingsystem
     url: jdbc:mysql://localhost:3306/orderingsystem?useUnicode=true&characterEncoding=UTF-8
